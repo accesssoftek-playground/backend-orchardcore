@@ -1,4 +1,6 @@
-﻿namespace OrchardCoreHeadlessBackend;
+﻿using Backend.Contracts.Persistence;
+
+namespace OrchardCoreHeadlessBackend;
 
 public class Startup
 {
@@ -29,7 +31,6 @@ public class Startup
         }
 
         app.UseHttpsRedirection();
-        
         app.UseOrchardCore();
     }
 }

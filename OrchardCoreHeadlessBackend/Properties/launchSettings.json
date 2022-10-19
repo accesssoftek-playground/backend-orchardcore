@@ -10,7 +10,7 @@
         "OrchardCore__OrchardCore_AutoSetup__Tenants__0__AdminEmail": "REPLACE_ME",
         "OrchardCore__OrchardCore_AutoSetup__Tenants__0__AdminPassword": "REPLACE_ME",
 
-        "OrchardCore__OrchardCoreHeadlessBackend__EnabledModules": "RandomQuoteModule"
+        "OrchardCore__OrchardCoreHeadlessBackend__EnabledModules": "RandomQuoteModule;SqlitePersistenceModule"
       },
       "dotnetRunMessages": true,
       "applicationUrl": "https://localhost:5001;http://localhost:5002"
