@@ -7,11 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="Microsoft.Data.Sqlite" Version="6.0.0" />
       <PackageReference Include="OrchardCore.Module.Targets" Version="1.4.0" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\..\..\..\Github\AdminToolPrototype\backend-orchardcore\Backend.Contracts\Backend.Contracts.csproj" />
+      <ProjectReference Include="..\..\Backend.Contracts\Backend.Contracts.csproj" />
     </ItemGroup>
 
 </Project>

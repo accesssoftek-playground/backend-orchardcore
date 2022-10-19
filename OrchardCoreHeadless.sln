@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlitePersistenceModule", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend.Contracts", "..\..\..\Github\AdminToolPrototype\backend-orchardcore\Backend.Contracts\Backend.Contracts.csproj", "{311B284F-B9B5-4CAD-8FBA-C2BCAFC4AEC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendAdminApi", "Modules\BackendAdminApi\BackendAdminApi.csproj", "{ED13143F-1F44-44A0-B59C-06EBC548A60E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{311B284F-B9B5-4CAD-8FBA-C2BCAFC4AEC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{311B284F-B9B5-4CAD-8FBA-C2BCAFC4AEC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{311B284F-B9B5-4CAD-8FBA-C2BCAFC4AEC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED13143F-1F44-44A0-B59C-06EBC548A60E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED13143F-1F44-44A0-B59C-06EBC548A60E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED13143F-1F44-44A0-B59C-06EBC548A60E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED13143F-1F44-44A0-B59C-06EBC548A60E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,5 +57,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{32625214-266D-475C-9CE4-869A96FF120C} = {2FB005B3-9D52-4288-BBFF-EF196BA165DB}
 		{31F1304F-C6C8-407E-9ED0-FA698FCDF515} = {2FB005B3-9D52-4288-BBFF-EF196BA165DB}
+		{ED13143F-1F44-44A0-B59C-06EBC548A60E} = {2FB005B3-9D52-4288-BBFF-EF196BA165DB}
 	EndGlobalSection
 EndGlobal

@@ -1,6 +1,4 @@
-﻿using Backend.Contracts.Persistence;
-
-namespace OrchardCoreHeadlessBackend;
+﻿namespace OrchardCoreHeadlessBackend;
 
 public class Startup
 {
@@ -14,12 +12,13 @@ public class Startup
     public void ConfigureServices(IServiceCollection services)
     {
         var enabledModules = _configuration
-            .GetSection("OrchardCore:OrchardCoreHeadlessBackend:EnabledModules")
-            .Get<string>();
+            .GetSection(Constants.Configuration.EnabledModules)
+            .Get<string>() ?? string.Empty;
         
         services
             .AddOrchardCms()
-            .AddSetupFeatures("OrchardCore.AutoSetup")
+            .AddSetupFeatures(Constants.Modules.AutoSetup)
+            .AddGlobalFeatures(Constants.Modules.GlobalFeatures)
             .AddTenantFeatures(enabledModules.Split(';'));
     }
 

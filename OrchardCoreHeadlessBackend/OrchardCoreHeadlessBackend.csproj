@@ -14,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Modules\BackendAdminApi\BackendAdminApi.csproj" />
     <ProjectReference Include="..\Modules\RandomQuoteModule\RandomQuoteModule.csproj" />
     <ProjectReference Include="..\Modules\SqlitePersistenceModule\SqlitePersistenceModule.csproj" />
   </ItemGroup>
